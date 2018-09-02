@@ -46,3 +46,6 @@ body {
   .btn-header-right{
     Color : gray !important; font-weight: normal !important; right: 2% !important; position: absolute !important;
   }
+  .example-tooltip-blue{
+    background-color: cornflowerblue;
+  }
