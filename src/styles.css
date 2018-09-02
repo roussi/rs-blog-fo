@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+  }
+  
+  mat-card, mat-list {
+    max-width: 60%;
+    margin: 2em auto;
+  }
+  
+  mat-toolbar-row {
+    justify-content: space-between;
+  }
+  
+  .done {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+  }
+  .acrticle-Header{
+      color: indigo;
+      margin-top: 0%;
+  }
+  .article-header{
+    border-left: #03a87c 3px solid; 
+    padding-left: 1%;
+  }
+  .p-article{
+    margin-left: 2%;
+  }
+  .readmore{
+    color:#03a87c !important; 
+    margin-left: 2% !important; 
+    right: 0 !important;
+  }
+  .subtitle-article-header{
+    color:#93939c ;margin-top:-1%; margin-left: 2%; font-weight: normal;
+  }
+  .btn-header{
+    Color : gray; font-weight: normal;
+  }
+  .btn-header-right{
+    Color : gray !important; font-weight: normal !important; right: 2% !important; position: absolute !important;
+  }
