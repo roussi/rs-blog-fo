@@ -8,8 +8,4 @@ import { faLink, faClock, faComment, faUserClock, faArrowRight } from '@fortawes
 })
 export class AppComponent {
   title = 'aroussi-blog-fo';
-  faTree = faLink;
-  faArrowAltCircleRight = faArrowRight;
-  faClock = faClock;
-  faComment = faComment;
 }
