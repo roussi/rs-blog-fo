@@ -10,11 +10,25 @@
           </span>
   <mat-card-content>
     <div>
-      <p class="p-article">Today we gonna talk about spring reactive programming
+      <div class="p-article">Today we gonna talk about spring reactive programming
         Today we gonna talk about spring reactive programming
         Today we gonna talk about spring reactive programming
         Today we gonna talk about spring reactive programming
         Today we gonna talk about spring reactive programming <br><br>
+
+        <pre>
+            <span class="keyword-type">package</span> com.devglan.userportal;
+
+            <span class="keyword-type">import</span> org.springframework.beans.factory.annotation.Autowired;
+            <span class="keyword-type">import</span> org.springframework.web.bind.annotation.*;            
+            <span class="keyword-type">import</span> java.util.List;
+            
+            <span class="annotation">@CrossOrigin(</span> origins = "http://localhost:4200", maxAge = 3600<span class="annotation">)</span>
+            <span class="syntax-heightlight" >@RestController</span>
+            @RequestMapping
+            public class UserController 
+        </pre>
+
         On the other hand, we denounce with righteous indignation and dislike men
         who are so beguiled and demoralized by the charms of pleasure of the moment,
         so blinded by desire, that they cannot foresee the pain and trouble that are
@@ -26,11 +40,11 @@
         circumstances and owing to the claims of duty or the obligations of business it will
         frequently occur that pleasures have to be repudiated and annoyances accepted. <br /><br />
         The wise man therefore always holds in these matters to this principle of selection:
-        he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains</p>
+        he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains</div>
     </div>
   </mat-card-content>
   <mat-card-actions>
-    <button mat-fab  class="readmore">12 <fa-icon [icon]="faHeart"></fa-icon></button>
+    <button mat-fab >12 <fa-icon [icon]="faHeart"></fa-icon></button>
     <mat-chip-list style="float: right !important">
       <mat-chip color="primary" style="background-color:mediumseagreen" selected>Gradle</mat-chip>
       <mat-chip color="primary" style="background-color:seagreen" selected>Spring Boot</mat-chip>

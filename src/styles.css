@@ -55,3 +55,31 @@ mat-toolbar{
   .example-tooltip-blue{
     background-color: cornflowerblue;
   }
+pre{
+    display: block;
+    padding-top:9px;
+    font-size: 13px;
+    line-height: 1.7;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    white-space: pre-wrap;
+}
+.keyword-type{
+    color: chocolate;
+    font-weight: bold;
+}
+.annotation{
+    color: #03926c;
+    font-weight: bold;
+}
+.syntax-heightlight{
+    background-color: rgb(250, 230, 206);
+    border: 1px solid rgb(255, 234, 139);
+    border-radius: 2px;
+    padding: 2px;
+    color: rgb(128, 89, 39)
+}
