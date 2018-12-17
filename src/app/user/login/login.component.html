@@ -1,10 +1,11 @@
 <div class="login-div">
     <mat-card class="card-login">
-        <mat-card-header style="color: lightseagreen;  height: 100px;">
-            <img src="../../../assets/img/loogo.png" width="110px" style="margin-left: 30%;"/> 
-            <h6>Welcome to RO blog Administration</h6>
+        <mat-card-header >
+            <img src="../../../assets/img/lock.svg" 
+             style="margin-left: 30%; border:1px solid #e4e4e4ea; border-radius: 50%; padding-top: 10px;"/> 
         </mat-card-header>
         <mat-card-content>
+            <h6 style="margin-top:2%; color: rgba(26, 189, 126, 0.966); text-align: center">AbdelghaniR blog Administration</h6>
             <form class="example-form">
                 <mat-form-field style="width :80%; left: 10%">
                   <input matInput placeholder="Email"
@@ -30,5 +31,10 @@
                   </mat-form-field>
               </form>
         </mat-card-content>
+        <mat-card-header style="float: right !important">
+          <button class="btn btn-primary" type="submit">
+              Login
+          </button>
+        </mat-card-header>
        </mat-card>
 </div>
