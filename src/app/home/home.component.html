@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row">
+    <!-- <div class="row">
         <div class="col">
             <div class="jumbotron">
                 <h1 style="color : #20c997">Blog is ready !</h1>
@@ -8,6 +8,32 @@
                     This is a test
                     </p>
               </div>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col">
+              <div class="content-card">
+                  <div class="row">
+                      <div class="col" style="text-align: center">
+                          <img src="../../../assets/img/article-0.png" width="80%"  />
+                      </div>
+                    </div>
+                    <div class="row">
+                        <h5 class="cyan">Dockerize a spring boot 2 application </h5> <br>  <br>  <br>
+                        <p>
+                            This article will illustrate how to implement Exception Handling with Spring for a REST API. We’ll also get a bit of historical overview and see which new options the different versions introduced.
+        <br><br>
+                            Before Spring 3.2, the two main approaches to handling exceptions in a Spring MVC application were: HandlerExceptionResolver or the @ExceptionHandler annotation. Both of these have some clear downsides.
+                            
+                            Since 3.2 we’ve had the @ControllerAdvice annotation to address the limitations of the previous two solutions and to promote a unified exception handling throughout a whole application.
+                            <br> <br>
+                            Now, Spring 5 introduces the ResponseStatusException class: A fast way for basic error handling in our REST APIs.
+                            
+                            All of these do have one thing in common – they deal with the separation of concerns very well. The app can throw exception normally to indicate a failure of some kind – exceptions which will then be handled separately.
+                        </p>
+                </div>
+          </div>
+            
         </div>
       </div>
 </div>
