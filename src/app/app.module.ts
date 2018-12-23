@@ -14,6 +14,11 @@ import { ArticleDetailComponent } from './article/article-detail/article-detail.
 import { ArticleEditingComponent } from './article/article-editing/article-editing.component';
 import { AbstractLayoutComponent } from './shared/abstract-layout/abstract-layout.component';
 
+import { DisqusModule } from 'ngx-disqus';
+import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SideBarComponent } from './shared/side-bar/side-bar.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,13 +29,17 @@ import { AbstractLayoutComponent } from './shared/abstract-layout/abstract-layou
     ArticleListComponent,
     ArticleDetailComponent,
     ArticleEditingComponent,
-    AbstractLayoutComponent
+    AbstractLayoutComponent,
+    PageNotFoundComponent,
+    SideBarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    DisqusModule.forRoot('abdelghaniroussi-com')
   ],
   providers: [],
   bootstrap: [AppComponent]

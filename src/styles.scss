@@ -4,7 +4,20 @@
 @import "~font-awesome/css/font-awesome.css";
 @import "assets/css/_colors.css";
 
+
+
+html, body { height: 100%; }
+body {
+  font-family: "PT Sans",Arial,sans-serif;
+  font-size: 15px;
+  background-color: #f6f7fb;
+  color: dimgray;
+  line-height: 1.5;
+  letter-spacing: .2px;
+  overflow-x: hidden;
+}
 .content-card{
+    font-family: "PT Sans",Arial,sans-serif;
     position: relative;
     background-color: #fff;
     margin-bottom: 30px;
@@ -20,16 +33,7 @@
 	-moz-box-shadow: none;
 	box-shadow: none;
 }
-html, body { height: 100%; }
-body {
-    font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
-    font-size: 14px;
-    background-color: #f6f7fb;
-    color: #888da8;
-    line-height: 1.5;
-    letter-spacing: .2px;
-    overflow-x: hidden;
-}
+
 .login-div{
     width: 40% !important;
     height: 400px;
@@ -43,6 +47,20 @@ body {
 }
 .card-login{
     height: 400px;
+}
+.a-link{
+  color: black;
+  width: 70px;
+  text-align: center;
+}
+.a-link:hover{
+  border-bottom: 2px dodgerblue solid;
+}
+.a-link:hover ~  .router-link-active{
+  border-bottom: none;
+}
+.router-link-active {
+  border-bottom: 2px dodgerblue solid;
 }
 .footer{
     position: relative;

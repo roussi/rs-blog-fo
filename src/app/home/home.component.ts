@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Article } from '../article/article';
+import { articles } from '../article/article.mock';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
+  article: Article = articles[0];
+  pageId = '/home';
   constructor() { }
 
   ngOnInit() {
