@@ -18,6 +18,7 @@ import { DisqusModule } from 'ngx-disqus';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SideBarComponent } from './shared/side-bar/side-bar.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { SideBarComponent } from './shared/side-bar/side-bar.component';
     ArticleEditingComponent,
     AbstractLayoutComponent,
     PageNotFoundComponent,
-    SideBarComponent
+    SideBarComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

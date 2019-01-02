@@ -6,6 +6,7 @@ import { ArticleListComponent } from './article/article-list/article-list.compon
 import { AbstractLayoutComponent } from './shared/abstract-layout/abstract-layout.component';
 import { ArticleDetailComponent } from './article/article-detail/article-detail.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
+import { ContactComponent } from './contact/contact.component';
 
 export const ROUTES: Routes = [
     {
@@ -17,12 +18,12 @@ export const ROUTES: Routes = [
                 component: AbstractLayoutComponent,
                 children: [
                     {
-                        path: 'home',
+                        path: 'blog',
                         component: HomeComponent
                     },
                     {
-                        path: 'articles',
-                        component: ArticleListComponent
+                        path: 'contact',
+                        component: ContactComponent
                     },
                     {
                         path: 'articles/:refName',
@@ -38,7 +39,7 @@ export const ROUTES: Routes = [
     },
     {
       path: '',
-      redirectTo: '/home',
+      redirectTo: '/blog',
       pathMatch: 'full'
     },
     { path: '**', component: PageNotFoundComponent }
