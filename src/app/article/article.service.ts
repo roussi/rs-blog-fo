@@ -11,7 +11,7 @@ export class ArticleService {
   }
 
   test() {
-    console.log('Hello from articles');
+    console.log('Hello friend ! do you want to do some scripting today ?');
   }
   getAllArticles(): Observable<any> {
     return this.http.get(API_URL + '/articles');

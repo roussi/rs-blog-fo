@@ -9,7 +9,12 @@ import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.co
 import { ContactComponent } from './contact/contact.component';
 
 export const ROUTES: Routes = [
-    {
+  {
+    path: '',
+    redirectTo: '/contact',
+    pathMatch: 'full'
+  },
+  {
         path : '',
         component: AppComponent,
         children: [
@@ -18,8 +23,8 @@ export const ROUTES: Routes = [
                 component: AbstractLayoutComponent,
                 children: [
                     {
-                        path: 'blog',
-                        component: HomeComponent
+                        path: 'articles',
+                        component: ArticleDetailComponent
                     },
                     {
                         path: 'contact',
@@ -36,11 +41,6 @@ export const ROUTES: Routes = [
                 component: LoginComponent
             }
         ]
-    },
-    {
-      path: '',
-      redirectTo: '/blog',
-      pathMatch: 'full'
     },
     { path: '**', component: PageNotFoundComponent }
 ];
