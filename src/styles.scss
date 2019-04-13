@@ -8,16 +8,17 @@
 
 html, body { height: 100%; }
 body {
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: normal normal 14px/1.4 Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
   font-size: 15px;
   background-color: #f6f7fb;
-  color: dimgray;
+  color: #005;
   line-height: 1.5;
   letter-spacing: .2px;
   overflow-x: hidden;
 }
 .content-card{
-    font-family: "PT Sans",Arial,sans-serif;
+    font-family: normal normal 14px/1.4 Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+    font-size: 13px;
     position: relative;
     background-color: #fff;
     margin-bottom: 30px;

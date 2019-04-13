@@ -1,20 +1,24 @@
 <div class="row">
-  <div class="col-md-9">
+  <div class="col-md-8">
             <div class="content-card">
                 <div class="row">
                     <div class="col" style="text-align: center">
                         <img [src]="article.image" width="80%"  />
                     </div>
-                  </div>
-                  <div class="row" style="white-space: pre-wrap;">
-                      <h5 class="dark">{{article.title}} </h5>
-                      <div class="article-content">
-                        {{article.content}}
-                      </div>
-              </div>
-          </div>
+                </div>
+                <div class="row" style="white-space: pre-wrap;">
+                    <h5 class="dark">{{article.title}} </h5>
+                    <div class="article-content">
+                      {{article.content}}
+                    </div>
+                </div>
+                <div class="row">
+                  <a href="https://twitter.com/intent/tweet?screen_name=roussiAbel&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @roussiAbel</a>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-4">
       <app-side-bar> </app-side-bar>
     </div>
 </div>
