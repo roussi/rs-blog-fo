@@ -11,10 +11,22 @@
   margin-top: 2%;
 }
 
+.article-item-metadata{
+  padding-top: 5%;
+  margin-bottom:1%;
+   font-size: 12px;
+}
+.read-more{
+  text-decoration: none;
+}
+
+.article-highlight{
+  color: #595776;
+}
 .article-item:hover{
-  border:1px solid rgb(236,236,236);
-padding: 10px;
-box-shadow: 1px 8px 5px rgb(242,242,242);
+  border:2px solid rgb(241,241,241);
+  padding: 10px;
+  box-shadow: 1px 2px 1px rgb(242,242,242);
 }
 /* Portrait and Landscape */
 @media only screen
