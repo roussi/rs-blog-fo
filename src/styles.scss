@@ -35,6 +35,16 @@ body {
 	box-shadow: none;
 }
 
+h2{
+  font-family:'Abel', sans-serif;
+  font-weight: bold;
+}
+::selection {
+  background: #1DE9B6; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #1DE9B6; /* Gecko Browsers */
+}
 .login-div{
     width: 40% !important;
     height: 400px;
@@ -50,9 +60,9 @@ body {
     height: 400px;
 }
 .a-link{
+  font: 'Abel', sans-serif bold;
   color: black;
   width: 100px;
-  color: gray-black;
   text-align: center;
 }
 .a-link:hover{
