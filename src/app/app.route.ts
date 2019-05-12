@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './user/login/login.component';
 import { ArticleListComponent } from './article/article-list/article-list.component';
@@ -27,12 +26,12 @@ export const ROUTES: Routes = [
                         component: ArticleListComponent
                     },
                     {
-                        path: 'contact',
-                        component: ContactComponent
+                      path: 'articles/spring-boot-validation-errors',
+                      component: ArticleDetailComponent
                     },
                     {
-                        path: 'articles/:refName',
-                        component: ArticleDetailComponent
+                        path: 'contact',
+                        component: ContactComponent
                     }
                 ]
             },
