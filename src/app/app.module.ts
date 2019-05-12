@@ -11,8 +11,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ArticleListComponent } from './article/article-list/article-list.component';
 import { ArticleDetailComponent } from './article/article-detail/article-detail.component';
-import { ArticleEditingComponent } from './article/article-editing/article-editing.component';
 import { AbstractLayoutComponent } from './shared/abstract-layout/abstract-layout.component';
+import { ArticleEditorComponent } from './article/article-editor/article-editor.component';
 
 import { DisqusModule } from 'ngx-disqus';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
@@ -29,11 +29,11 @@ import { ContactComponent } from './contact/contact.component';
     FooterComponent,
     ArticleListComponent,
     ArticleDetailComponent,
-    ArticleEditingComponent,
     AbstractLayoutComponent,
     PageNotFoundComponent,
     SideBarComponent,
-    ContactComponent
+    ContactComponent,
+    ArticleEditorComponent
   ],
   imports: [
     BrowserModule,

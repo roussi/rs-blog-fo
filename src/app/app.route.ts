@@ -4,6 +4,7 @@ import { LoginComponent } from './user/login/login.component';
 import { ArticleListComponent } from './article/article-list/article-list.component';
 import { AbstractLayoutComponent } from './shared/abstract-layout/abstract-layout.component';
 import { ArticleDetailComponent } from './article/article-detail/article-detail.component';
+import { ArticleEditorComponent } from './article/article-editor/article-editor.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 import { ContactComponent } from './contact/contact.component';
 
@@ -28,6 +29,10 @@ export const ROUTES: Routes = [
                     {
                       path: 'articles/spring-boot-validation-errors',
                       component: ArticleDetailComponent
+                    },
+                    {
+                      path: 'articles/editor/:article_name',
+                      component: ArticleEditorComponent
                     },
                     {
                         path: 'contact',

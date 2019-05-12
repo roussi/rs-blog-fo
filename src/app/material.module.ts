@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {MatSelectModule} from '@angular/material/select';
 
 import {
   MatButtonModule,
@@ -20,6 +21,7 @@ import {
   imports: [
     CommonModule,
     MatInputModule,
+    MatSelectModule,
     MatButtonModule,
     MatMenuModule,
     MatToolbarModule,
@@ -37,6 +39,7 @@ import {
     MatMenuModule,
     MatInputModule,
     MatToolbarModule,
+    MatSelectModule,
     MatIconModule,
     MatCardModule,
     MatDividerModule,
