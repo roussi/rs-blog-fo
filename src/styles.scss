@@ -34,9 +34,23 @@ body {
 	-moz-box-shadow: none;
 	box-shadow: none;
 }
-.article-writing-snippets{
-  background-color: #eeeeee;
+.note-card-warn{
+  background-color: #f7f1d5;
   min-height: 100px;
+  padding: 0;
+}
+.note-card-warn h6{
+  background-color: #ede7cd;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+  color: #737063;
+  text-align: center;
+}
+.note-card-warn .code-rule{
+  display: inline-block;
+  margin: 2%;
+  color: #07C;
 }
 h2,h3,h4{
   font-family:'Abel', sans-serif;
@@ -63,19 +77,23 @@ h2,h3,h4{
     height: 400px;
 }
 .a-link{
-  font: 'Abel', sans-serif bold;
-  color: black;
+  font: 'Abel', sans-serif;
+  color: #6a737c;
   width: 100px;
   text-align: center;
+  font-weight: lighter !important;
+  font-size: 14px;
 }
 .a-link:hover{
-  border-bottom: 2px dodgerblue solid;
+  border-bottom: 2px #07C solid;
 }
 .a-link:hover ~  .router-link-active{
   border-bottom: none;
 }
 .router-link-active {
-  border-bottom: 2px dodgerblue solid;
+  border-bottom: 2px  #07C solid;
+  background-color: rgba(240,240,240,0.1);
+  color: #07C;
 }
 .footer{
     position: relative;

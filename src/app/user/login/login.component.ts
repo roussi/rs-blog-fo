@@ -19,6 +19,12 @@ export class LoginComponent implements OnInit {
     Validators.required,
     Validators.email,
   ]);
+  passwordFormControl =  new FormControl('',[
+    Validators.minLength(8),
+    Validators.maxLength(20),
+    Validators.required,
+    Validators.pattern("^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$")
+  ]);
   matcher = new MyErrorStateMatcher();
 
   constructor() { }
