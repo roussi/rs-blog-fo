@@ -24,11 +24,6 @@
 .article-highlight{
   color: #595776;
 }
-.article-item:hover{
-  border:2px solid rgb(241,241,241);
-  padding: 10px;
-  box-shadow: 1px 2px 1px rgb(242,242,242);
-}
 /* Portrait and Landscape */
 @media only screen
   and (min-device-width: 320px)
@@ -38,4 +33,19 @@
       display: grid;
       grid-template-columns: 100%;
     }
+}
+
+@media only screen  and (max-width: 700px) {
+  .article-list{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+
+@media only screen and (min-width: 1186px) {
+  .article-item:hover{
+    border:2px solid rgb(241,241,241);
+    padding: 10px;
+    box-shadow: 1px 2px 1px rgb(242,242,242);
+  }
 }

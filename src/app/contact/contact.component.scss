@@ -9,3 +9,9 @@
   box-sizing: border-box;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, .15)
 }
+@media only screen and (min-width: 370px) {
+  .profile-picture{
+    margin-left: 20%;
+    text-align: center !important;
+  }
+}
