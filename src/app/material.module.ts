@@ -13,7 +13,8 @@ import {
   MatGridListModule,
   MatTooltipModule,
   MatChipsModule,
-  MatInputModule
+  MatInputModule,
+  MatAutocompleteModule
 } from '@angular/material';
 
 @NgModule({
@@ -21,6 +22,7 @@ import {
   imports: [
     CommonModule,
     MatInputModule,
+    MatAutocompleteModule,
     MatSelectModule,
     MatButtonModule,
     MatMenuModule,
@@ -39,6 +41,7 @@ import {
     MatMenuModule,
     MatInputModule,
     MatToolbarModule,
+    MatAutocompleteModule,
     MatSelectModule,
     MatIconModule,
     MatCardModule,
