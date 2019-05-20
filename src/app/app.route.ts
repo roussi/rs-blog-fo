@@ -11,7 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 export const ROUTES: Routes = [
   {
     path: '',
-    redirectTo: '/contact',
+    redirectTo: '/articles',
     pathMatch: 'full'
   },
   {
