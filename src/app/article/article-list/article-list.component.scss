@@ -49,3 +49,22 @@
     box-shadow: 1px 2px 1px rgb(242,242,242);
   }
 }
+
+.summary_author_name{
+  font-size: 15px;
+  color:rgb(2, 179, 179);
+}
+.summary_author_name::selection{
+  color: black;
+}
+.summary_author_img{
+  padding:2%;width: 35px; height:35px; border: 1px rgba(0,200,200,.54) solid; border-radius: 50%;
+}
+.summary_time_read{
+  font-size:17px; 
+  float: left;
+  color: #595776;
+}
+.summary_bar_info{
+  width: 100%;
+}
