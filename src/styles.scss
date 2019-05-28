@@ -8,7 +8,7 @@
 
 html, body { height: 100%; }
 body {
-  font-family: normal normal 14px/1.4 Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+  font-family: Abel,sans-serif;
   font-size: 15px;
   background-color: #f6f7fb;
   color: #005;
@@ -92,7 +92,7 @@ h2,h3,h4{
 }
 .router-link-active {
   border-bottom: 2px  #07C solid;
-  background-color: rgba(240,240,240,0.1);
+  background-color: rgba(136, 195, 255, 0.089);
   color: #07C;
 }
 .footer{

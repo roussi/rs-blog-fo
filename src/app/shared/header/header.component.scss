@@ -4,3 +4,15 @@
       float: none !important;
     }
   }
+
+.header-nav{
+  background-color: #ffffff; 
+  border-bottom:1px solid #f0eeee;
+  box-shadow: 1px 1px 11px 0px rgba(232,232,232,0.75);
+}
+.header-nav-item:hover{
+  background-color: rgba(136, 195, 255, 0.089);
+}
+.header-nav-item{
+  font-weight: bolder !important;
+}

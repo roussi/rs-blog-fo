@@ -3,7 +3,7 @@
   background-color: #FFF;
   padding: 4px;
   display: inline-block;
-  max-width: 100%;
+  max-width: 80%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -11,7 +11,6 @@
 }
 @media only screen and (min-width: 370px) {
   .profile-picture{
-    margin-left: 20%;
     text-align: center !important;
   }
 }
