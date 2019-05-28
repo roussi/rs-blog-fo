@@ -16,3 +16,23 @@
 .header-nav-item{
   font-weight: bolder !important;
 }
+
+/* Iphone X*/
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 812px) {
+    .nav-item{
+      display: inline-block;
+      margin: 0;
+      text-align: center;
+    }
+    .nav-item:hover{
+      background-color: rgba(136, 195, 255, 0.089);
+      border-bottom: 2px  #07C solid;
+    }
+    .router-link-active{
+      background: none;
+      border: none;
+    }
+
+}

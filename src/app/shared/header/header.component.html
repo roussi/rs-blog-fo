@@ -1,22 +1,32 @@
-<nav class="navbar mb-5 header-nav">
-  <div class="navbar-brand" href="/">
-  </div>
-  <div class="navbar-expand mr-auto">
-    <div class="navbar-nav">
-      <a style="width: 70px;"> <img class="nav-link" src="../../../assets/img/logo3.png" style="width: 45px; height:42px;" /> </a>
-      <a class="nav-link a-link header-nav-item" style="font-weight:bold" routerLink="/articles" routerLinkActive="router-link-active" >ARTICLES</a>
-      <a class="nav-link a-link header-nav-item" style="font-weight:bold" routerLink="/contact" routerLinkActive="router-link-active">CONTACT</a>
-    </div>
-  </div>
-  <div class="navbar-expand ml-auto navbar-nav">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link h-22-px" href="https://github.com/roussi" target="_blank">
-        <i class="fa fa-github gray-dark"></i>
-      </a>
-      <a class="nav-item nav-link h-22-px " href="https://twitter.com/roussiAbel" target="_blank">
-        <i class="fa fa-twitter primary"></i>
-      </a>
+<nav class="navbar mb-5 header-nav navbar-expand-lg navbar-static-top"  role="navigation" >
+    <a class="navbar-brand"> <img class="nav-link" src="../../../assets/img/logo3.png" style="width: 65px; height:43  px;" /> </a>
 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rsoneCollapsedMenu" aria-controls="rsoneCollapsedMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-align-justify" style="color: rgb(35, 214, 169)"> </i>
+    </button>
+    <div class="collapse navbar-collapse" id="rsoneCollapsedMenu" >
+      <ul class="navbar-nav mr-auto" style=" width: 100%;">
+          <li class="nav-item">
+          </li>
+          <li class="nav-item">
+              <a class="nav-link a-link header-nav-item" style="font-weight:bold; display: inline-block;" routerLink="/articles" routerLinkActive="router-link-active" >ARTICLES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a-link header-nav-item" style="font-weight:bold; display: inline-block;" routerLink="/contact" routerLinkActive="router-link-active">CONTACT</a>
+          </li>
+      </ul>
+      <ul class="navbar-nav mr-auto rss">
+          <li class="nav-item" >
+              <a class="nav-item nav-link h-22-px" href="https://github.com/roussi" target="_blank">
+                <i class="fa fa-github gray-dark"></i>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-item nav-link h-22-px " href="https://twitter.com/roussiAbel" target="_blank">
+                <i class="fa fa-twitter primary"></i>
+              </a>
+          </li>
+      </ul>
+        
     </div>
-  </div>
-</nav>
+  </nav>
