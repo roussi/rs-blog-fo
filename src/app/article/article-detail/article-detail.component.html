@@ -8,15 +8,17 @@
                 </div>
                 <div class="row" style="white-space: pre-wrap;">
                     <h4 class="dark" style="font-weight: bolder">{{article.title}} </h4>
-                    <div class="article-content">
-                      {{article.content}}
+                    <div class="article-content" [innerHTML]="article.content">
                     </div>
                 </div>
+
                 <div class="row">
                   <a href="https://twitter.com/intent/tweet?screen_name=roussiAbel&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @roussiAbel</a>
                   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
+                
             </div>
+            
   </div>
   <div class="col-md-4">
       <app-side-bar> </app-side-bar>

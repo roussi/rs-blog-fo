@@ -10,6 +10,13 @@ import { articles } from '../article.mock';
 export class ArticleDetailComponent implements OnInit {
   article: Article = articles[0];
   pageId = '/home';
+  comment = '<hello> Am a div </hello>';
+  content_java = `
+  public static void printed(Integer e){
+    sleep(1000);
+    System.out.println(String.format("+++++ number : %s, Thread %s", e, Thread.currentThread()));
+}
+  `;
   constructor() { }
 
   ngOnInit() {

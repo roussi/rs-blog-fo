@@ -1,0 +1,17 @@
+.code-section{
+    font-family: Arial;
+  background-color: #333;
+  font-size: 14px;
+}
+.code-section tr td:first-child{
+    border-right: 1px solid rgb(78, 77, 77);
+    width: 15px;
+    cursor: not-allowed;
+    padding: 5px 5px;
+    color: #8a8888;
+    font-size: 12px;
+}
+.code-section tr td:nth-child(2){
+    padding-left: 1%; 
+    color: #4ca;
+}
