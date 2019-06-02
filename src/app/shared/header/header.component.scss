@@ -14,12 +14,13 @@
   background-color: rgba(136, 195, 255, 0.089);
 }
 .header-nav-item{
-  font-weight: bolder !important;
+  font-weight: bold !important;
+  font-family: Abel, sans-serif;
 }
 
 /* Iphone X*/
 @media only screen 
-  and (min-width: 375px) 
+  and (min-width: 300px) 
   and (max-width: 812px) {
     .nav-item{
       display: inline-block;

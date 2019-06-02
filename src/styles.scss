@@ -4,13 +4,47 @@
 @import "~font-awesome/css/font-awesome.css";
 @import "assets/css/_colors.css";
 
+.underlining{
+  text-decoration: underline;
+  font-size: 18px;
+}
+ul{
+  list-style: square;
+}
+.ul-inside-article li{
+  margin: -4%;
+}
+.author_img{
+  width: 50px; height:50px; border: 1px rgba(240, 240, 240, 0.54) solid; border-radius: 50%;
+  box-shadow: 0px 1px 10px -2px rgb(170, 170, 170);
+}
+code{
+  color: rgb(54, 54, 54);
+  font-size: 12px; 
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
 .code_class{
+  width: 100%;
   background-color: #f3f3f3;
+}
+.separator{
+  display: block;
+  height: 3px;
+  float: left;
+  background: linear-gradient(90deg,#2583ee,#37f370);
+  border: 0;
+  width: 30%;
+  max-width: 30%;
+  position: relative;
 }
 html, body { height: 100%; }
 body {
-  font-family: Abel,sans-serif;
-  font-size: 15px;
+  font-family: jaf-bernina-sans,sans-serif;
+  font-size: 14px;
+  font-weight: lighter !important;
   background-color: #f6f7fb;
   color: #005;
   line-height: 1.5;
